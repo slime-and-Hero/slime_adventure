@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T14:44:20.736Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="4zpSa8fuHoYKkICByTkx" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-21T15:38:49.257Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="1jHpbBhu_ga5IMXszDzb" version="20.0.1" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="game_start">
     <mxGraphModel dx="2310" dy="2045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -15,8 +15,8 @@
             <mxPoint x="44" y="-620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q8TZn7RBIf1q1gjqgfK8-0" value="&lt;h1&gt;(가제)slime_adventure&lt;/h1&gt;&lt;p&gt;턴제 게임 / 맵 방식&lt;/p&gt;&lt;p&gt;경험치 획득 후 용사와 동료 이동&lt;/p&gt;&lt;p&gt;최종 목표는 최종 목적지까지 도착&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-100" y="-820" width="290" height="160" as="geometry" />
+        <mxCell id="Q8TZn7RBIf1q1gjqgfK8-0" value="&lt;h1&gt;게임 스타트 화면&lt;/h1&gt;&lt;p&gt;턴제 게임 / 맵 방식&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;슬라임 멥에 진입하기 전까지의 메인 선택지&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;게임의 스토리라인 구현 필요&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-100" y="-820" width="250" height="160" as="geometry" />
         </mxCell>
         <mxCell id="Q8TZn7RBIf1q1gjqgfK8-7" value="1.새 게임 / 2. 불러오기 / 3. 종료" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-86" y="-620" width="260" height="130" as="geometry" />
@@ -55,7 +55,7 @@
         <mxCell id="Q8TZn7RBIf1q1gjqgfK8-29" value="2번 선택" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Q8TZn7RBIf1q1gjqgfK8-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q8TZn7RBIf1q1gjqgfK8-87" value="용사 1" style="swimlane;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Q8TZn7RBIf1q1gjqgfK8-87" value="김현식꺼" style="swimlane;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-590" y="-680" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Q8TZn7RBIf1q1gjqgfK8-91" value="용사의 현재 상태" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Q8TZn7RBIf1q1gjqgfK8-87">
@@ -150,10 +150,10 @@
           <mxGeometry x="45" y="-20.004117647058592" as="geometry" />
         </mxCell>
         <mxCell id="_Mia_UiZr0CnKLNUYDY4-10" value="맵을 돌아다니며 몬스터를 마주치는 맵 방식" style="shape=card;whiteSpace=wrap;html=1;align=center;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-100" y="-960" width="330" height="50" as="geometry" />
+          <mxGeometry x="-100" y="-890" width="310" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_Mia_UiZr0CnKLNUYDY4-11" value="슬라임 멥에 진입하기 전까지의 메인 선택지" style="shape=card;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-100" y="-900" width="330" height="50" as="geometry" />
+        <mxCell id="_Mia_UiZr0CnKLNUYDY4-11" value="&lt;span style=&quot;text-align: left;&quot;&gt;최종 목표는 최종 목적지까지 도착&lt;/span&gt;" style="shape=card;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-100" y="-950" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PRMlBg0IRmGoO6BArrW4-2" value="선택지에 if문 or switch 문?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;shadow=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="174" y="-450" width="323" height="50" as="geometry" />
@@ -209,13 +209,15 @@
             <mxPoint x="-36" y="505" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PRMlBg0IRmGoO6BArrW4-25" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-310" y="-690" width="140" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="Q8TZn7RBIf1q1gjqgfK8-22" value="ArrayList 저장하기" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PRMlBg0IRmGoO6BArrW4-25">
+        <UserObject label="" linkTarget="_blank" id="PRMlBg0IRmGoO6BArrW4-25">
+          <mxCell style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="-310" y="-690" width="140" height="180" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Q8TZn7RBIf1q1gjqgfK8-22" value="ArrayList 불러오기" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PRMlBg0IRmGoO6BArrW4-25">
           <mxGeometry y="60" width="140" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Q8TZn7RBIf1q1gjqgfK8-23" value="용사 1" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#333333;" vertex="1" parent="Q8TZn7RBIf1q1gjqgfK8-22">
+        <mxCell id="Q8TZn7RBIf1q1gjqgfK8-23" value="김현식꺼" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#333333;" vertex="1" parent="Q8TZn7RBIf1q1gjqgfK8-22">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Q8TZn7RBIf1q1gjqgfK8-24" value="새로 저장하기" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Q8TZn7RBIf1q1gjqgfK8-22">
@@ -283,6 +285,25 @@
         </mxCell>
         <mxCell id="PRMlBg0IRmGoO6BArrW4-33" value="맵으로 진입" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;shadow=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="10" y="930" width="160" height="130" as="geometry" />
+        </mxCell>
+        <UserObject label="Link" link="https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&amp;blogId=blue7water&amp;logNo=10015714231" id="dGa60oDW0xaZCtbf9i1Z-1">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;shadow=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="-330" y="-740" width="60" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="dGa60oDW0xaZCtbf9i1Z-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PRMlBg0IRmGoO6BArrW4-0" target="dGa60oDW0xaZCtbf9i1Z-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="예제) 입문 개발자의 게임 개발 글" link="https://mr-cho.tistory.com/106" id="dGa60oDW0xaZCtbf9i1Z-6">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;shadow=1;strokeColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="-690" y="-1070" width="270" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="dGa60oDW0xaZCtbf9i1Z-9" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;(가제)slime_adventure&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;shadow=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-195.5" y="-1150" width="435" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dGa60oDW0xaZCtbf9i1Z-10" value="&lt;span style=&quot;text-align: left;&quot;&gt;경험치 획득 후 용사와 동료 이동&lt;/span&gt;" style="shape=card;whiteSpace=wrap;html=1;align=center;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-100" y="-1010" width="250" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
