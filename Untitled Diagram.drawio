@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T15:44:30.919Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Gh8ICYAXOjRd8YLb49Pa" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-21T17:20:02.513Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="AOZHJrdFweJwslgwMdBq" version="20.0.1" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="game_start">
-    <mxGraphModel dx="2310" dy="2045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2557" dy="2191" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -283,9 +283,11 @@
         <mxCell id="PRMlBg0IRmGoO6BArrW4-30" value="게임 종료" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.or;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="260" y="610" width="37" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="PRMlBg0IRmGoO6BArrW4-33" value="맵으로 진입" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;shadow=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="10" y="930" width="160" height="130" as="geometry" />
-        </mxCell>
+        <UserObject label="맵으로 진입" link="data:page/id,d0_zAkGaChqCbyK7Lp2f" id="PRMlBg0IRmGoO6BArrW4-33">
+          <mxCell style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;shadow=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="10" y="930" width="160" height="130" as="geometry" />
+          </mxCell>
+        </UserObject>
         <UserObject label="Link" link="https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&amp;blogId=blue7water&amp;logNo=10015714231" id="dGa60oDW0xaZCtbf9i1Z-1">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;shadow=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
             <mxGeometry x="-330" y="-740" width="60" height="40" as="geometry" />
@@ -305,7 +307,7 @@
         <mxCell id="dGa60oDW0xaZCtbf9i1Z-10" value="&lt;span style=&quot;text-align: left;&quot;&gt;경험치 획득 후 용사와 동료 이동&lt;/span&gt;" style="shape=card;whiteSpace=wrap;html=1;align=center;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-100" y="-1010" width="250" height="50" as="geometry" />
         </mxCell>
-        <UserObject label="예제) 자바로 간단한 게임 개발" link="%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CUserObject%20label%3D%22%EC%98%88%EC%A0%9C)%20%EC%9E%85%EB%AC%B8%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98%20%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C%20%EA%B8%80%22%20link%3D%22https%3A%2F%2Fmr-cho.tistory.com%2F106%22%20id%3D%222%22%3E%3CmxCell%20style%3D%22shape%3Dnote%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BbackgroundOutline%3D1%3BdarkOpacity%3D0.05%3Bshadow%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Ddefault%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-690%22%20y%3D%22-1070%22%20width%3D%22270%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2FUserObject%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E" id="dGa60oDW0xaZCtbf9i1Z-11">
+        <UserObject label="예제) 자바로 간단한 게임 개발" link="https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&amp;blogId=war2i7i7&amp;logNo=220800037422" id="dGa60oDW0xaZCtbf9i1Z-11">
           <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;shadow=1;strokeColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
             <mxGeometry x="-690" y="-1010" width="270" height="50" as="geometry" />
           </mxCell>
@@ -313,6 +315,11 @@
         <UserObject label="예제) 자바를 활용한 포켓몬 게임" link="https://velog.io/@fordevelop/Java-%ED%99%9C%EC%9A%A9-%ED%8F%AC%EC%BC%93%EB%AA%AC-%EA%B2%8C%EC%9E%84" id="dGa60oDW0xaZCtbf9i1Z-12">
           <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;shadow=1;strokeColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
             <mxGeometry x="-690" y="-950" width="270" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="예제) 자바로 만들어본 카드게임" link="https://rinuel.tistory.com/5" id="Y2E3YzelX12bgfmVweFw-0">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;shadow=1;strokeColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="-690" y="-890" width="270" height="50" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
