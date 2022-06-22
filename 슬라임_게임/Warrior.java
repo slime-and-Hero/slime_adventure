@@ -12,25 +12,25 @@ public class Warrior {
     }
 
     public int att() {
-        System.out.println(this.name + "은(는) " + 10 + " 공격을 했습니다!");
+        System.out.println(this.name + " 은(는) " + 10 + " 공격을 했습니다!");
         return 10;
     }
 
     public int att_a() {
         this.mp =  this.mp - 10;
-        System.out.println(this.name + "은(는) " + 30 + " 종단 공격을 했습니다!");
+        System.out.println(this.name + " 은(는) " + 30 + " 종단 공격을 했습니다!");
         return 30;
     }
 
     public int att_b() {
         this.mp = this.mp - 20;
-        System.out.println(this.name + "은(는) " + 50 + " 상단 공격을 했습니다!");
+        System.out.println(this.name + " 은(는) " + 50 + " 상단 공격을 했습니다!");
         return 50;
     }
 
     public void dmg(int input_dmg) {
         this.hp = this.hp - input_dmg;
-        System.out.println(this.name + "은(는) " + input_dmg + " 공격을 받았습니다.");
+        System.out.println(this.name + " 은(는) " + input_dmg + " 공격을 받았습니다.");
     }
 
     public void info() {
@@ -40,7 +40,7 @@ public class Warrior {
     }
 
     public void death() {
-        System.out.println(this.name + "는(은) 쓰러졌다!");
+        System.out.println(this.name + " 은(는) 쓰러졌다!");
     }
 
 }
