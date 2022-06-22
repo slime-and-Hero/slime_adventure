@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T02:05:34.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="PTcnh6wfBX22Y-FHSM_P" version="20.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-22T02:43:23.651Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="nh4gZJSChHxtuKLI4-uq" version="20.0.2" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="game_start">
-    <mxGraphModel dx="1865" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1816" dy="1720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -342,6 +342,16 @@
         <UserObject label="키보드 프레임 구현?" link="https://bskwak.tistory.com/181" id="G1s7B7ArixT3GZUsRpkL-1">
           <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
             <mxGeometry x="430" y="-970" width="196" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="예제)&amp;nbsp; 자바로 포켓몬 게임" link="https://velog.io/@kmh916/%ED%8F%AC%EC%BC%93%EB%AA%AC-%EA%B2%8C%EC%9E%84" id="G1s7B7ArixT3GZUsRpkL-2">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;shadow=1;strokeColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="-690" y="-830" width="270" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="아스키 아트?" link="https://wepplication.github.io/tools/asciiArtGen/" id="G1s7B7ArixT3GZUsRpkL-3">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="430" y="-925" width="196" height="35" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
