@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T02:43:23.651Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="nh4gZJSChHxtuKLI4-uq" version="20.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-22T04:46:30.429Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="PxXUcBiSRGWvCejKbCe9" version="20.0.2" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="game_start">
-    <mxGraphModel dx="1816" dy="1720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2531" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -352,6 +352,21 @@
         <UserObject label="아스키 아트?" link="https://wepplication.github.io/tools/asciiArtGen/" id="G1s7B7ArixT3GZUsRpkL-3">
           <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
             <mxGeometry x="430" y="-925" width="196" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="자바 타이핑 효과?" link="https://geojun.tistory.com/50" id="G1s7B7ArixT3GZUsRpkL-4">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="430" y="-882.5" width="196" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="딜레이 출력?" link="https://www.delftstack.com/ko/howto/java/how-to-delay-few-seconds-in-java/" id="G1s7B7ArixT3GZUsRpkL-6">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="430" y="-1010" width="196" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="랜덤 함수로 공격력 범위 구현?" link="https://velog.io/@on-n-on-turtle/java-Math.random-%EC%9B%90%ED%95%98%EB%8A%94-%EB%B2%94%EC%9C%84%EA%B9%8C%EC%A7%80-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B2%95" id="G1s7B7ArixT3GZUsRpkL-8">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="430" y="-840" width="240" height="35" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
