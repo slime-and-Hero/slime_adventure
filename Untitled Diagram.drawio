@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T00:31:31.478Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="lvvs2g84_jtczx9pcQiN" version="20.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-22T02:05:34.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="PTcnh6wfBX22Y-FHSM_P" version="20.0.2" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="game_start">
     <mxGraphModel dx="1865" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -173,8 +173,8 @@
         <mxCell id="PRMlBg0IRmGoO6BArrW4-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PRMlBg0IRmGoO6BArrW4-6" target="PRMlBg0IRmGoO6BArrW4-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PRMlBg0IRmGoO6BArrW4-6" value="이제 무엇을 할까?&lt;br&gt;1. 모험을 떠난다 / 2. 저장한다 / 3. 종료" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-105" y="620" width="310" height="120" as="geometry" />
+        <mxCell id="PRMlBg0IRmGoO6BArrW4-6" value="이제 무엇을 할까?&lt;br&gt;&lt;br&gt;1. 모험을 떠난다 / 2. 저장한다 / 3. 종료" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-105" y="610" width="310" height="130" as="geometry" />
         </mxCell>
         <mxCell id="PRMlBg0IRmGoO6BArrW4-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PRMlBg0IRmGoO6BArrW4-4" target="PRMlBg0IRmGoO6BArrW4-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -301,8 +301,8 @@
             <mxGeometry x="-690" y="-1070" width="270" height="50" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="dGa60oDW0xaZCtbf9i1Z-9" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;(가제)slime_adventure&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;shadow=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-195.5" y="-1150" width="435" height="80" as="geometry" />
+        <mxCell id="dGa60oDW0xaZCtbf9i1Z-9" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;(가제)monster_adventure&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;shadow=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-230" y="-1150" width="520" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dGa60oDW0xaZCtbf9i1Z-10" value="&lt;span style=&quot;text-align: left;&quot;&gt;경험치 획득 후 용사와 동료 이동&lt;/span&gt;" style="shape=card;whiteSpace=wrap;html=1;align=center;fillColor=#f9f7ed;strokeColor=#36393d;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-100" y="-1010" width="250" height="50" as="geometry" />
@@ -334,28 +334,38 @@
         <mxCell id="3ehhde29I6oZmMRlAuGe-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Archer Class&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: String name;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: int hp;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: int mp;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: ArrayList[] bag;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: int exp??;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): 공격&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): 방어?&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): 전투 상황&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): 죽었을 때?&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-530" y="10" width="220" height="200" as="geometry" />
         </mxCell>
+        <UserObject label="Link" link="https://crazykim2.tistory.com/558" id="G1s7B7ArixT3GZUsRpkL-0">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="-330" y="-770" width="60" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="키보드 프레임 구현?" link="https://bskwak.tistory.com/181" id="G1s7B7ArixT3GZUsRpkL-1">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="430" y="-970" width="196" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="ZGgEb0HpRSaPVbbr7sd6" name="stage">
-    <mxGraphModel dx="1038" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kPBScOgSpZ2EqgyrWfvx-2" value="&lt;h1&gt;슬라임 던전&lt;/h1&gt;&lt;p&gt;전투 상황&lt;/p&gt;&lt;p&gt;몬스터와 마주친 이후의 상황부터&lt;/p&gt;&lt;p&gt;몬스터 파티 혹은 용사 파티 둘 중 하나가 모두 쓰러질 때까지 상황 유지&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="kPBScOgSpZ2EqgyrWfvx-2" value="&lt;h1&gt;슬라임 던전&lt;/h1&gt;&lt;p&gt;전투 상황&lt;/p&gt;&lt;p&gt;몬스터와 마주친 이후의 상황부터&lt;/p&gt;&lt;p&gt;몬스터 파티 혹은 용사 파티 둘 중 하나가 모두 쓰러질 때까지 상황 유지&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="240" width="190" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="kPBScOgSpZ2EqgyrWfvx-10" value="while 문 사용" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="kPBScOgSpZ2EqgyrWfvx-10" value="while 문 사용" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="320" y="90" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kPBScOgSpZ2EqgyrWfvx-11" value="용사 배열과 몬스터 배열 중 먼저 제거 되는 배열이 있을 시&amp;nbsp; false" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="kPBScOgSpZ2EqgyrWfvx-11" value="용사 배열과 몬스터 배열 중 먼저 제거 되는 배열이 있을 시&amp;nbsp; false" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="320" y="150" width="430" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="d0_zAkGaChqCbyK7Lp2f" name="map">
-    <mxGraphModel dx="1038" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -363,7 +373,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tqdbKPi1zNq9aa9sFCUZ" name="battle">
-    <mxGraphModel dx="1038" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
