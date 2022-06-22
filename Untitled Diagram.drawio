@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T04:46:30.429Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="PxXUcBiSRGWvCejKbCe9" version="20.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-22T05:52:45.196Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="bX5WbX7ZAXdNhMHz7AIn" version="20.0.2" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="game_start">
     <mxGraphModel dx="2531" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -354,7 +354,7 @@
             <mxGeometry x="430" y="-925" width="196" height="35" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="자바 타이핑 효과?" link="https://geojun.tistory.com/50" id="G1s7B7ArixT3GZUsRpkL-4">
+        <UserObject label="자바 타이핑 효과 힌트?" link="https://geojun.tistory.com/50" id="G1s7B7ArixT3GZUsRpkL-4">
           <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
             <mxGeometry x="430" y="-882.5" width="196" height="35" as="geometry" />
           </mxCell>
@@ -373,7 +373,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZGgEb0HpRSaPVbbr7sd6" name="stage">
-    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -390,7 +390,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="d0_zAkGaChqCbyK7Lp2f" name="map">
-    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -398,7 +398,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tqdbKPi1zNq9aa9sFCUZ" name="battle">
-    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
