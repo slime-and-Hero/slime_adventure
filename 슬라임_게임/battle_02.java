@@ -6,11 +6,12 @@ public class battle_02 {
     static slime monster;
     static Warrior hero;
     static Scanner scan = new Scanner(System.in);
+    static int skill = scan.nextInt();
     
     public static void battle_field(slime input_monster, Warrior input_hero) {
         monster = input_monster;
         hero = input_hero;
-
+        
         
         //둘 중하나가 쓰러질 때까지 턴제 배틀을 반복
         while(true) {
@@ -28,27 +29,28 @@ public class battle_02 {
                 if(select == 1) {
 
                     //스킬 선택지
-                    skill_select(); 
+                    skill_select();
+                    battle_end(); 
                                      
-                    //몬스터가 쓰러졌을 때
-                    if(monster.hp <= 0) {
-                        monster.death();
-                        System.out.println(monster.name + " 을(를) 무찔렀다"); 
-                        scan.nextLine();
-                        break;  
-                    }
+                    // //몬스터가 쓰러졌을 때
+                    // if(monster.hp <= 0) {
+                    //     monster.death();
+                    //     System.out.println(monster.name + " 을(를) 무찔렀다"); 
+                    //     scan.nextLine();
+                    //     break;  
+                    // }
                     
-                    //몬스터의 공격
-                    //몬스터가 쓰러지거나 도망가기를 선택했을 때 실행되지 않게
-                    hero.dmg(monster.att());
+                    // //몬스터의 공격
+                    // //몬스터가 쓰러지거나 도망가기를 선택했을 때 실행되지 않게
+                    // hero.dmg(monster.att());
                     
-                    //용사가 쓰러졌을 때
-                    if(hero.hp <= 0) {
-                        hero.death();
-                        System.out.println("game over");
-                        scan.nextLine();
-                        break;
-                    } 
+                    // //용사가 쓰러졌을 때
+                    // if(hero.hp <= 0) {
+                    //     hero.death();
+                    //     System.out.println("game over");
+                    //     scan.nextLine();
+                    //     break;
+                    // } 
                 }
                 //가방 선택
                 else if(select == 2) {
@@ -89,7 +91,6 @@ public class battle_02 {
             System.out.println("3 : 종단 베기 mp 20 소모");
             System.out.println("4 : 뒤로 가기");
             System.out.println("=======================");
-            int skill = scan.nextInt();
             if(skill == 1) {
                 System.out.println("용사 " + hero.name + " 은(는) 공격을 했다!");
                 monster.dmg(hero.att());
@@ -123,6 +124,27 @@ public class battle_02 {
                 continue;
             }
         }
+    }
 
+    public static void battle_end() {
+        if(skill < 4) { 
+            //몬스터가 쓰러졌을 때
+            if(monster.hp <= 0) {
+                monster.death();
+                System.out.println(monster.name + " 을(를) 무찔렀다"); 
+                scan.nextLine();
+            }
+            
+            //몬스터의 공격
+            //몬스터가 쓰러지거나 도망가기를 선택했을 때 실행되지 않게
+            hero.dmg(monster.att());
+            
+            //용사가 쓰러졌을 때
+            if(hero.hp <= 0) {
+                hero.death();
+                System.out.println("game over");
+                scan.nextLine();
+            } 
+        }
     }
 }

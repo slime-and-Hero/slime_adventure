@@ -17,6 +17,8 @@ public class slime_game_main {
             if(main_select == 1) {
 
                 System.out.println("새 게임을 시작합니다\n'Enter 키를 눌러주세요'");
+                scan.nextLine();
+                scan.nextLine();
                 System.out.println("용사의 이름을 정해주세요");
                 //키보드 입력값을 input 변수에 할당
                 String input = scan.nextLine();
@@ -25,6 +27,9 @@ public class slime_game_main {
                 Warrior warrior = new Warrior(input, 50, 30);
                 warrior.info();
                 scan.nextLine();
+
+                //마을 진입
+                map.village(0, warrior);
 
                 System.out.print("용사 " + warrior.name + " 은(는) 길을 걷고 있다....");
                 scan.nextLine();
