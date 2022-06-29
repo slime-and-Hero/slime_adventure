@@ -29,7 +29,7 @@ public class slime {
 
     public int att() {
         Random attack = new Random();
-        int a = attack.nextInt(30);
+        int a = attack.nextInt(60);
         System.out.println(this.name + "은(는) " + a + " 공격을 했습니다!");
         return a;
     }
