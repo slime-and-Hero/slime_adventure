@@ -12,7 +12,7 @@ public class map {
         hero = input_hero;
         String village_name = village[i];
 
-        //마을 진입 마을 밖으로 이동하기 전까지 루프
+        //마을 진입. 마을 밖으로 이동하기 전까지 루프
         while(true) {
             System.out.println("\n\n이곳은 " + village_name);
             System.out.println("\n이제 무엇을 할까?\n");
